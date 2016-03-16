@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row marketing animated zoomInUp" ng-repeat="episode in episodes">
+        <div class="col-sm-6 col-md-4">
+            <img class="thumbnail" src="{{episode.thumb}}">
+        </div>
+        <h4>{{episode.episode}}. {{episode.episodename}}</h4>
+        <h6></h6>
+        <p class="desc">{{episode.desc}}</p>
+        <a href=https://watchthethrones.herokuapp.com/{{episode.href480}} class="btn btn-default" ng-show="episode.href480">480p</a>
+        <a href=https://watchthethrones.herokuapp.com/{{episode.href720}} class="btn btn-primary" ng-show="episode.href720">720p</a>
+        <a href={{episode.torrlink480}} class="btn btn-success" ng-show="episode.torrlink480">Torrent 480p</a>
+        <a href={{episode.torrlink720}} class="btn btn-info" ng-show="episode.torrlink720">Torrent 720p</a>
+    </div>
+</div>
