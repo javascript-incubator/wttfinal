@@ -1,7 +1,8 @@
-# wttfinal
+# Watch The Throne
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+## Vegas Background Install
+After building put app/extraScripts --> dist/extraScripts and app/style/overlays/ --> dist/style/overlays/ 
+For working of Vegas 
 
 ## Build & development
 
