@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
+    <title>Watch The Throne</title>
+    <meta name="description" content="Your one stop for all Game of Thrones downloads!">
     <meta name="viewport" content="width=device-width">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -11,6 +11,7 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="bower_components/vegas/dist/vegas.min.css" />
+    <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -36,7 +37,7 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">WatchTheThrone</a>
+            <a class="navbar-brand" href="#/">WatchTheThrone</a><span class="label label-warning">Beta</span>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
@@ -47,14 +48,17 @@
               <li><a ng-href="#/s/3">Season 3</a></li>
               <li><a ng-href="#/s/4">Season 4</a></li>
               <li><a ng-href="#/s/5">Season 5</a></li>
-              <li><a ng-href="#/s/6">Season 6</a></li>
+              <li><a ng-href="#/s/6">Season 6</a></li><span class="label label-success">Coming Soon</span>
             </ul>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="container" style="background: #000;">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="container">
     <div ng-view=""></div>
     </div>
 
@@ -91,7 +95,7 @@
     <script src="bower_components/vegas/dist/vegas.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-
+    <script src="extraScripts/bg.js"></script>
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>

@@ -1,3 +1,8 @@
+<div class="container" style="background: black;">
+<div class="col-lg-12">
+  <h2 class="page-header">Season {{no}} Episodes</h2>
+</div>
+
 <div class="container">
     <div class="row marketing animated zoomInUp" ng-repeat="episode in episodes">
         <div class="col-sm-6 col-md-4">
@@ -11,4 +16,5 @@
         <a href={{episode.torrlink480}} class="btn btn-success" ng-show="episode.torrlink480">Torrent 480p</a>
         <a href={{episode.torrlink720}} class="btn btn-info" ng-show="episode.torrlink720">Torrent 720p</a>
     </div>
+</div>
 </div>

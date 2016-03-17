@@ -9,6 +9,7 @@
  */
 angular.module('wttfinalApp')
   .controller('SCtrl', function ($scope, Restangular, $routeParams) {
+    $scope.no = $routeParams.no;
     var geturl = 'https://watchthethrones.herokuapp.com/season/';
       var getroute = Restangular.oneUrl('droute', geturl);
       getroute.getList($routeParams.no).then(function (data) {
