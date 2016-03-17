@@ -1,7 +1,7 @@
 # Watch The Throne
 
 ## Vegas Background Install
-After building put 'app/extraScripts --> dist/extraScripts' and 'app/style/overlays/ --> dist/style/overlays/' 
+After building put `app/extraScripts --> dist/extraScripts` and `app/style/overlays/ --> dist/style/overlays/` 
 For working of Vegas 
 
 ## Build & development
