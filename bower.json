@@ -12,7 +12,16 @@
     "angular-touch": "^1.4.0",
     "restangular": "^1.5.2",
     "vegas": "^2.2.0",
-    "animate.css": "^3.5.1"
+    "animate.css": "^3.5.1",
+    "angular-loading-bar": "^0.9.0",
+    "videogular": "^1.4.2",
+    "videogular-themes-default": "^1.4.2",
+    "videogular-controls": "^1.4.2",
+    "videogular-buffering": "^1.4.2",
+    "videogular-overlay-play": "^1.4.2",
+    "videogular-poster": "^1.4.2",
+    "videogular-ima-ads": "^1.4.2",
+    "videogular-angulartics": "^1.4.2"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"

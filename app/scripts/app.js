@@ -16,7 +16,12 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'restangular'
+    'restangular',
+    'cfp.loadingBar',
+    'com.2fdevs.videogular',
+    'com.2fdevs.videogular.plugins.controls',
+    'com.2fdevs.videogular.plugins.overlayplay',
+    'com.2fdevs.videogular.plugins.poster'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -34,6 +39,11 @@ angular
         templateUrl: 'views/s.html',
         controller: 'SCtrl',
         controllerAs: 's'
+      })
+      .when('/episodeStream', {
+        templateUrl: 'views/episodestream.html',
+        controller: 'EpisodestreamCtrl',
+        controllerAs: 'episodeStream'
       })
       .otherwise({
         redirectTo: '/s/1'
