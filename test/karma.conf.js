@@ -59,6 +59,9 @@ module.exports = function(config) {
       'bower_components/angulartics/src/angulartics-marketo.js',
       'bower_components/angulartics/src/angulartics-intercom.js',
       'bower_components/videogular-angulartics/vg-analytics.js',
+      'bower_components/momentjs/moment.js',
+      'bower_components/humanize-duration/humanize-duration.js',
+      'bower_components/angular-timer/dist/angular-timer.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

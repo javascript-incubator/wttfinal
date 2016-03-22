@@ -11,3 +11,7 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+## Angular-Timer
+
+`https://github.com/globaljake/simple-inline-countdown-directive`

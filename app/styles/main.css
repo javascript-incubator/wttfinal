@@ -10,9 +10,7 @@ body {
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
+.marketing{
   padding-left: 15px;
   padding-right: 15px;
   color: white;
