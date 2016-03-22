@@ -1,13 +1,14 @@
 # Watch The Throne
 
+[![Code Climate](https://codeclimate.com/github/rajatsharma305/wttfinal/badges/gpa.svg)](https://codeclimate.com/github/rajatsharma305/wttfinal)
 
 ## Grunt Tasks
 
 ### Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
-After building put `app/extraScripts --> dist/extraScripts` and `app/style/overlays/ --> dist/style/overlays/` 
-For working of Vegas 
+After building put `app/extraScripts --> dist/extraScripts` and `app/style/overlays/ --> dist/style/overlays/`
+For working of Vegas
 
 ### Testing
 
