@@ -18,7 +18,9 @@ angular
     'ngTouch',
     'restangular',
     'cfp.loadingBar',
-    'countdownTimer'])
+    'countdownTimer',
+    'ui.bootstrap',
+  'angular-google-analytics'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -40,6 +42,11 @@ angular
         templateUrl: 'views/episodestream.html',
         controller: 'EpisodestreamCtrl',
         controllerAs: 'episodeStream'
+      })
+      .when('/Disclaimer', {
+        templateUrl: 'views/disclaimer.html',
+        controller: 'DisclaimerCtrl',
+        controllerAs: 'Disclaimer'
       })
       .otherwise({
         redirectTo: '/s/1'
