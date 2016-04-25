@@ -15,10 +15,6 @@ angular.module('wttfinalApp')
       cfpLoadingBar.start();
       cfpLoadingBar.inc();
       getroute.getList($routeParams.no).then(function (data) {
-        if($routeParams.no==6){
-          $scope.isSix = true;
-          console.log("isSIx");
-        }
         data.sort(function (a, b) { return a.episode - b.episode });
         //$scope.addSuccessAlert();
         $scope.episodes = data;
