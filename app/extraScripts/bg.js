@@ -1,6 +1,6 @@
 $("#example, body").vegas({
     slides: [
-        { src: 'http://www.hdwallpapers.in/walls/daenerys_targaryen_game_of_thrones-wide.jpg' }
+        { src: 'http://i.lv3.hbo.com/assets/images/series/game-of-thrones/episodes/6/52/episode-52-1024.jpg' }
     ],
     overlay: true
 });
