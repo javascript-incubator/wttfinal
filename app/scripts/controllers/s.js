@@ -10,7 +10,7 @@
 angular.module('wttfinalApp')
   .controller('SCtrl', function ($scope, Restangular, $routeParams , cfpLoadingBar) {
     $scope.no = $routeParams.no;
-    var geturl = 'https://watchgot.herokuapp.com/season/';
+    var geturl = 'https://watchthethrones.herokuapp.com/season/';
       var getroute = Restangular.oneUrl('droute', geturl);
       cfpLoadingBar.start();
       cfpLoadingBar.inc();
