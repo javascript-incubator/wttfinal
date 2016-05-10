@@ -18,7 +18,7 @@
         <p class="desc">{{episode.desc}}</p>
         <a href=https://watchthethrones.herokuapp.com/download/{{episode.href480}} class="btn btn-default" ng-show="episode.href480">480p</a>
         <a href=https://watchthethrones.herokuapp.com/download/{{episode.href720}} class="btn btn-primary" ng-show="episode.href720">720p</a>
-        <a href=https://watchthethrones.herokuapp.com/stream/{{episode.href480}} class="btn btn-primary" ng-show="episode.href480">Stream</a>
+        <a href=https://watchthethrones.herokuapp.com/stream/{{episode.href480}} class="btn btn-info" ng-show="episode.href480">Stream</a>
         <a href={{episode.torrlink480}} class="btn btn-success" ng-show="episode.torrlink480" tooltip-placement="top" uib-tooltip="Download Now!">Torrent 480p</a>
         <a href={{episode.torrlink720}} class="btn btn-info" ng-show="episode.torrlink720">Torrent 720p</a>
     </div>
