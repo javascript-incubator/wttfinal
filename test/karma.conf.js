@@ -33,7 +33,7 @@ module.exports = function(config) {
       'bower_components/restangular/dist/restangular.js',
       'bower_components/vegas/dist/vegas.min.js',
       'bower_components/angular-loading-bar/build/loading-bar.js',
-      'bower_components/momentjs/moment.js',
+      'bower_components/moment/moment.js',
       'bower_components/humanize-duration/humanize-duration.js',
       'bower_components/angular-timer/dist/angular-timer.js',
       'bower_components/angular-google-analytics/dist/angular-google-analytics.min.js',
