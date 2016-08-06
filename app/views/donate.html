@@ -1,0 +1,41 @@
+<div class="container" style="background: black;">
+  <h4 class="page-header">Donate using Bitcoins</h4>
+
+<div class="container">
+  <p>Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network.
+  </p>
+  <p>
+   You can donate us Bitcoin by providing your name and email address, so that we can mail you back as soon as your Payment is confirmed.
+   </p>
+  <div class="panel col-xs-8 col-md-8 col-lg-8 panel-primary">
+  <div class="panel-body">
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputEmail" placeholder="Email" ng-model="email">
+      </div>
+      <label for="inputName" class="col-lg-2 control-label">Name</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputName" placeholder="Name" ng-model="name">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="submit" class="btn" ng-class="notGood" ng-click="donateNow(name,email)">Submit</button>
+      </div>
+    </div>
+    <br/>
+    <br/>
+     <div class="panel panel-success col-xs-10 col-md-10 col-lg-10" ng-repeat="bt in bts">
+  <div class="panel-body">
+    <h6>{{bt.btc}}</h6>
+    <img src="{{bt.btqr}}">
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</p>
+    </div>
+</div>
+<br/>

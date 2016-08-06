@@ -48,6 +48,11 @@ angular
         controller: 'DisclaimerCtrl',
         controllerAs: 'Disclaimer'
       })
+      .when('/donate', {
+        templateUrl: 'views/donate.html',
+        controller: 'DonateCtrl',
+        controllerAs: 'donate'
+      })
       .otherwise({
         redirectTo: '/s/1'
       });

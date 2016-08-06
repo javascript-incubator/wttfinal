@@ -8,7 +8,9 @@
 body {
   padding: 0;
 }
-
+.panel{
+  margin-top: 20px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .marketing{
   padding-left: 15px;
